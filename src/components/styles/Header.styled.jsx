@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header`
     background-color: ${({theme})=> theme.colors.header};
-    padding: 4rem auto;
+    max-width: ${({ theme }) => theme["max-width"]};
+    padding: 4rem 0;
+    justify-content: center;
+    margin: auto;
+
 `;
 export const Logo = styled.img`
     width: 300px;

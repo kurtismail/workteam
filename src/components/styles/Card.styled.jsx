@@ -8,7 +8,8 @@ const Main = styled.main`
   align-items: center;
   justify-content: space-between;
   padding: 4rem;
-  margin: 1rem auto;
+  margin: 1rem auto 0;
+  
   gap: 3rem;
   max-width: ${({ theme }) => theme["max-width"]};
   flex-direction: ${({ id }) => (id % 2 ? "row" : "row-reverse")};
