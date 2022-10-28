@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const style = {
   colors:{
-    header: "#fff",
+    header: "white",
     body: "#eee",
     footer: "#8a1c4a"
   },
