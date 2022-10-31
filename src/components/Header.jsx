@@ -12,7 +12,7 @@ const Header = () => {
           <Button bg="#a62440">Talk to Adviser</Button>
         </div>
       </Nav>
-      <div>
+      <Flex>
         <div>
           <h1>The IT Career of Your Dreams Starts Here!</h1>
           <p>
@@ -22,8 +22,8 @@ const Header = () => {
           </p>
           <Button bg="#A62440">Start Your New Carier</Button>
         </div> 
-        <img src='./images/hero.jpg'/>   
-      </div>
+        <Image src='./images/hero.jpg'/>   
+      </Flex>
     </StyledHeader>
   )
 }
